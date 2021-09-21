@@ -40,8 +40,8 @@ header nav .hovered:hover{
     border-radius: 15px;
     box-shadow: 10px 5px 10px lightsteelblue;
 }
-.main__logo-wrapper{
-    background-image: url(/img/bg\ img1.png) ;
+main .main__logo-wrapper{
+    background-image: url(/img/bgimg.png) ;
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -80,11 +80,6 @@ header nav .hovered:hover{
 .main__logo-button span{
     font-size: 20px;
     color: white;
-}
-.main__products .main__products-item .products__item-first{
-    background-image: url(/Products/ger.png) ;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 .main__products{
     display: flex;
