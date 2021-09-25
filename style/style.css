@@ -87,16 +87,23 @@ main .main__logo-wrapper{
 
 }
 .main__products{
+    margin-top: 57px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
+
 }
 .main__products .main__products-wrapper{
-    width: calc(100% / 3); 
+    width: calc(100% / 3);
+    text-align: center;
 }
-
+.main__products .main__products-wrapper .products__item{
+    display: inline;
+}
+.main__products-item-text h3{
+    color: #5094f2;
+}
 .block3__wrapper{
     margin-top: 95px; 
 }
