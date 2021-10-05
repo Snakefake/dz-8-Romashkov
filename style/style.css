@@ -25,7 +25,7 @@ header nav ul{
     list-style: none;
     display: flex;   
 }
-header nav ul li:not(last-child){
+header nav ul li{
     margin: 0 30px;   
 }
 .title__wrapper-link{
